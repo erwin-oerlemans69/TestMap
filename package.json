@@ -1,0 +1,14 @@
+{
+  "name": "vitest",
+  "version": "1.0.0",
+  "description": "ErwinTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "ErwinJ",
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.19.4"
+  }
+}

@@ -1,5 +1,7 @@
 export class Account {
 
+    //Korte aantekening van E Jansen om het committen en pushen te oefenen
+
   _type: string;
   _balance: number;
   _savings: number;
@@ -36,7 +38,7 @@ export class Account {
 
     public deposit( amount: number) {
         if ( amount <= 0 ) {
-            throw new Error ("Please supply a positive, non-zero amount")
+            throw new Error ("Please, aub, supply a positive, non-zero amount")
         }
         else {
         this._balance += amount

@@ -38,7 +38,7 @@ export class Account {
 
     public deposit( amount: number) {
         if ( amount <= 0 ) {
-            throw new Error ("Please, aub, supply a positive, non-zero amount")
+            throw new Error ("Please, aub aub, supply a positive, non-zero amount")
         }
         else {
         this._balance += amount

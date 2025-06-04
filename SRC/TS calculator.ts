@@ -7,6 +7,7 @@ export class calculator {
     } 
 }
 
-get total() {
+/*get total() {
     return this._total;
 }
+*/

@@ -5,7 +5,7 @@ let account = new Account('savings');
 console.log("Account type: " + account.type);
 console.log("Account savings: " + account.savings); 
 
-//Try Catch; fouten afvangen
+//Try Catch; fouten afvangen EJ
 try {
     account.deposit(2);
 } catch (err) {
